@@ -35,6 +35,11 @@ body {
 .okeys:hover svg{
   stroke: white;
 }
+.custombgTwos{
+  border-radius: 24px;
+background: var(--Neutral-N0, #FFF);
+box-shadow: 0 8px 24px 0 rgba(0, 66, 153, 0.08);
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
