@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Container from "../components/common/Container";
+import Container from "@/components/common/Container";
 
 export default function Navbar() {
   const NavData = [
