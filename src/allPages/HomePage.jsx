@@ -5,6 +5,8 @@ import HomePricing from "@/components/homePageComponents/HomePricing";
 import HomeTestimonial from "@/components/homePageComponents/HomeTestimonial";
 import HomeWhyChooseUs from "@/components/homePageComponents/HomeWhyChooseUs";
 import HomeSeoServices from "@/components/homePageComponents/HomeSeoServices";
+import HomeVoiceOverService from "@/components/homePageComponents/HomeVoiceOverService";
+import HomeBlog from "@/components/homePageComponents/HomeBlog";
 
 export default function HomePage() {
   return (
@@ -16,6 +18,8 @@ export default function HomePage() {
       <HomeTestimonial />
       <HomeFAQ />
       <HomeSeoServices />
+      <HomeVoiceOverService />
+      <HomeBlog />
     </>
   );
 }
