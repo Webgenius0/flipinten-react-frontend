@@ -3,7 +3,7 @@ import CommonHeading from "@/components/common/CommonHeading";
 import CommonSubHeading from "@/components/common/CommonSubHeading";
 import BlogCard from "@/components/common/BlogCard";
 import BlogImage from "@/assets/BlogImage.png";
-import { Link } from "react-router-dom";
+import CommonButton from "@/components/common/CommonButton";
 
 const BlogCardData = [
   {
@@ -47,26 +47,7 @@ export default function HomeBlog() {
         </div>
 
         <div className="flex justify-center items-center">
-          <Link className="py-4 px-6 bg-[#E52621] rounded-[30px] w-max text-white text-[18px] font-semibold leading-[27px] flex gap-2 group">
-            <span>See all</span>
-            <div className="transition-transform duration-300 group-hover:rotate-[-40deg]">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-              >
-                <path
-                  d="M19 12.5H5M19 12.5L13 18.5M19 12.5L13 6.5"
-                  stroke="white"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </div>
-          </Link>
+          <CommonButton text="See all" />
         </div>
       </Container>
     </section>

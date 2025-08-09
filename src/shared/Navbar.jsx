@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Container from "@/components/common/Container";
+import CommonButton from "@/components/common/CommonButton";
 
 export default function Navbar() {
   const NavData = [
@@ -11,7 +12,7 @@ export default function Navbar() {
     {
       id: 1,
       text: "About Us",
-      to: "/",
+      to: "/about-us",
     },
     {
       id: 2,
@@ -371,24 +372,7 @@ export default function Navbar() {
             </ul>
           </div>
           <div>
-            <Link className="py-4 px-6 bg-[#E52621] rounded-[30px] w-max text-white text-[16px] font-semibold leading-6 flex gap-2 items-center">
-              <span>Log in</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="25"
-                viewBox="0 0 24 25"
-                fill="none"
-              >
-                <path
-                  d="M19 12.5H5M19 12.5L13 18.5M19 12.5L13 6.5"
-                  stroke="white"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </Link>
+            <CommonButton text="Log In" />
           </div>
         </div>
       </Container>
