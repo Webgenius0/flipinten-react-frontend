@@ -2,6 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "@/layout/Layout";
 import HomePage from "@/allPages/HomePage";
 import AboutUsPage from "@/allPages/AboutUsPage";
+import YTCPlans from "@/allPages/YTCPlans";
+import YTCService from "@/allPages/YTCService";
 
 const Router = createBrowserRouter([
   {
@@ -13,12 +15,19 @@ const Router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: 'about-us',
-        element: <AboutUsPage/>
-      }
+        path: "about-us",
+        element: <AboutUsPage />,
+      },
+      {
+        path: "ytc-plans",
+        element: <YTCPlans />,
+      },
+      {
+        path: "ytc-services",
+        element: <YTCService/>,
+      },
     ],
   },
 ]);
-
 
 export default Router;

@@ -1,10 +1,10 @@
 import Container from "@/components/common/Container";
-import CommonHeading from "../common/CommonHeading";
+import CommonHeading from "@/components/common/CommonHeading";
 import CoreImageOne from "@/assets/coreServiceImageOne.png";
 import CoreImageTwo from "@/assets/coreServiceImageTwo.png";
 import CoreImageThree from "@/assets/coreServiceImageThree.png";
 import CoreImageFour from "@/assets/coreServiceImageFour.png";
-import CommonButton from "../common/CommonButton";
+import CommonButton from "@/components/common/CommonButton";
 
 const ImagesData = [
     {

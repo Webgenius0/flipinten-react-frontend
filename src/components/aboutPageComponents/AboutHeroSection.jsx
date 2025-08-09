@@ -1,8 +1,8 @@
 import Container from "@/components/common/Container";
 import AboutHero from "@/assets/aboutHeroSection.png";
 import CommonHeading from "@/components/common/CommonHeading";
-import CommonSubHeading from "../common/CommonSubHeading";
-import CommonButton from "../common/CommonButton";
+import CommonSubHeading from "@/components/common/CommonSubHeading";
+import CommonButton from "@/components/common/CommonButton";
 
 
 export default function AboutHeroSection() {

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Container from "@/components/common/Container";
 import CommonButton from "@/components/common/CommonButton";
 
@@ -17,27 +17,27 @@ export default function Navbar() {
     {
       id: 2,
       text: "YT Channel Plans",
-      to: "/",
+      to: "/ytc-plans",
     },
     {
       id: 3,
       text: "YTC Services ",
-      to: "/",
+      to: "/ytc-services",
     },
     {
       id: 4,
       text: "YT Video Plans",
-      to: "/",
+      to: "/yt-video-plans",
     },
     {
       id: 5,
       text: "Blogs",
-      to: "/",
+      to: "/blog",
     },
     {
       id: 6,
       text: "Refer & Earn",
-      to: "/",
+      to: "/refer",
     },
   ];
 
@@ -361,12 +361,12 @@ export default function Navbar() {
             <ul className="flex gap-8 items-center">
               {NavData.map((item) => (
                 <li key={item.id}>
-                  <Link
+                  <NavLink
                     to={item.to}
                     className="text-white text-[18px] font-normal transition-all ease-linear duration-200 hover:font-semibold leading-[27px] hover:underline capitalize"
                   >
                     {item.text}
-                  </Link>
+                  </NavLink>
                 </li>
               ))}
             </ul>

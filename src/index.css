@@ -7,7 +7,10 @@
 body {
   font-family: "Exo", sans-serif;
 }
-
+a.active{
+  text-decoration-line: underline;
+  font-weight: 600;
+}
 @theme {
   --shadow-custom: 0 50px 30px -28px rgba(92, 92, 92, 0.36);
   --shadow-customTwo: 0 0 16px 0 rgba(134, 134, 134, 0.15);
