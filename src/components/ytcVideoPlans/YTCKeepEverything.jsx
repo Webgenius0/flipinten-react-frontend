@@ -2,18 +2,22 @@ import Container from "@/components/common/Container";
 import CommonButton from "@/components/common/CommonButton";
 import CommonHeading from "@/components/common/CommonHeading";
 
-export default function YTCPowerFul() {
+
+export default function YTCKeepEverything() {
   return (
     <section className="py-[120px]">
       <Container>
         <div className="grid grid-cols-2 items-center gap-[72px] mx-12">
           <div className="max-w-[558px]">
-            <CommonHeading text="Simple Pricing for Powerful Results" />
+            <CommonHeading text="Keep everything organised and easy to find" />
             <p className="text-[#5B6477] text-[16px] leading-[24px] mt-3">
-              Stop wasting time searching through endless folders. Tag, categorise and find your videos instantly with AI-powered tools. Cinema8 ensures your team can always locate what they need—whether it’s for training, marketing or creative projects.
+              Stop wasting time searching through endless folders. Tag,
+              categorise and find your videos instantly with AI-powered tools.
+              Cinema8 ensures your team can always locate what they need—whether
+              it’s for training, marketing or creative projects.
             </p>
             <div className="mt-[32px] flex gap-6">
-              <CommonButton text="Get My Plan" />
+              <CommonButton text="Simplify video management" />
             </div>
           </div>
 
@@ -32,5 +36,5 @@ export default function YTCPowerFul() {
         </div>
       </Container>
     </section>
-  )
+  );
 }

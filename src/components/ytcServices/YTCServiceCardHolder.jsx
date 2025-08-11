@@ -4,7 +4,7 @@ import CommonButton from "../common/CommonButton";
 const YouTubeCardData = [
   {
     id: 0,
-    videoLink: "https://www.youtube.com/embed/SRXH9AbT280?si=Z97NXuh_BgYruvPf",
+    videoLink: "https://www.youtube.com/embed/GAEnQGT7J-M?si=p0QJYzGSE6pYILYw",
     heading: "YTstart SEO Services",
     subHeading:
       "We optimize your videos to rank higher and reach more viewers. Our SEO service includes:",
@@ -17,7 +17,7 @@ const YouTubeCardData = [
   },
   {
     id: 1,
-    videoLink: "https://www.youtube.com/embed/SRXH9AbT280?si=Z97NXuh_BgYruvPf",
+    videoLink: "https://www.youtube.com/embed/h7CSXI7MTBI?si=x_HuXFCer062Z2JO",
     heading: "YTstart Voiceover Services",
     subHeading:
       "Professional voiceovers in multiple languages to make your videos engaging and global.",

@@ -213,25 +213,27 @@ export default function HomePricing() {
         </div>
 
         {/* Monthly/Yearly Toggle */}
-        <div className="mt-[48px] flex justify-center items-center gap-4">
-          <h3 className="text-2xl font-medium text-[#1C1D20]">Monthly</h3>
-          <div
-            onClick={handleMonthlyYearly}
-            className={`cursor-pointer w-[80px] h-[35px] ease-linear duration-150 ${
-              billingCycle === "monthly" ? "bg-customTwo" : "bg-[#E52621]"
-            } rounded-[45px] relative`}
-          >
+        {selectedPlan === 'Recurring Plans' && (
+          <div className="mt-[48px] flex justify-center items-center gap-4">
+            <h3 className="text-2xl font-medium text-[#1C1D20]">Monthly</h3>
             <div
-              className={`h-[30px] w-[30px] rounded-full bg-white absolute ease-linear duration-150 top-[2px] ${
-                billingCycle === "monthly" ? "left-[3px]" : "right-[3px]"
-              }`}
-            ></div>
+              onClick={handleMonthlyYearly}
+              className={`cursor-pointer w-[80px] h-[35px] ease-linear duration-150 ${
+                billingCycle === "monthly" ? "bg-customTwo" : "bg-[#E52621]"
+              } rounded-[45px] relative`}
+            >
+              <div
+                className={`h-[30px] w-[30px] rounded-full bg-white absolute ease-linear duration-150 top-[2px] ${
+                  billingCycle === "monthly" ? "left-[3px]" : "right-[3px]"
+                }`}
+              ></div>
+            </div>
+            <h3 className="text-2xl font-medium text-[#1C1D20]">Yearly</h3>
+            <div className="px-2 bg-[#E52621] py-1 w-max text-white text-[14px] leading-[21px] rounded-2xl">
+              Save 10%
+            </div>
           </div>
-          <h3 className="text-2xl font-medium text-[#1C1D20]">Yearly</h3>
-          <div className="px-2 bg-[#E52621] py-1 w-max text-white text-[14px] leading-[21px] rounded-2xl">
-            Save 10%
-          </div>
-        </div>
+        )}
 
         {/* Pricing Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-[48px]">

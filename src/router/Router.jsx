@@ -4,6 +4,9 @@ import HomePage from "@/allPages/HomePage";
 import AboutUsPage from "@/allPages/AboutUsPage";
 import YTCPlans from "@/allPages/YTCPlans";
 import YTCService from "@/allPages/YTCService";
+import YTCVideoPlans from "@/allPages/YTCVideoPlans";
+import BlogPage from "@/allPages/BlogPage";
+import BlogDetails from "@/allPages/BlogDetails";
 
 const Router = createBrowserRouter([
   {
@@ -24,7 +27,19 @@ const Router = createBrowserRouter([
       },
       {
         path: "ytc-services",
-        element: <YTCService/>,
+        element: <YTCService />,
+      },
+      {
+        path: "yt-video-plans",
+        element: <YTCVideoPlans />,
+      },
+      {
+        path: "blog",
+        element: <BlogPage />,
+      },
+      {
+        path: "blog-details/:id",
+        element: <BlogDetails />,
       },
     ],
   },

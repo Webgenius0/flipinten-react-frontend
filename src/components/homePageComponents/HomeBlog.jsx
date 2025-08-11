@@ -47,7 +47,7 @@ export default function HomeBlog() {
         </div>
 
         <div className="flex justify-center items-center">
-          <CommonButton text="See all" />
+          <CommonButton to="/blog" text="See all" />
         </div>
       </Container>
     </section>

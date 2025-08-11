@@ -49,7 +49,7 @@ export default function HomeHero() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/SRXH9AbT280?si=Vnp5OZosNvajsMUI"
+              src="https://www.youtube.com/embed/h7CSXI7MTBI?si=SnKttxNYHarioBaD"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
