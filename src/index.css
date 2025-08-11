@@ -78,7 +78,9 @@ a.active{
   border-radius: 4.329px 86.585px;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat, #d9d9d9;
 }
-
+.customForClient{
+  background: linear-gradient(93deg, #E60000 0.34%, #240000 97.15%);
+}
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

@@ -26,7 +26,7 @@ export default function HomeCounter() {
   ];
 
   return (
-    <section className="py-[36px] bg-[#F6F6F6] ">
+    <section className="py-[36px] bg-[#F6F6F6] my-[100px]">
       <Container>
         {/* <CountUp end={100} duration={5} /> */}
         <div className="grid grid-cols-4 items-center">
