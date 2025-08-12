@@ -35,7 +35,79 @@ const pricingData = {
         "Custom Branding",
         "Buy Back Not Included"
       ]
-    }
+    },
+    {
+      id: crypto.randomUUID(),
+      title: "One Time Premium",
+      setupTime: "Setup in 3 Working Days",
+      billing: {
+        monthly: {
+          price: "Rs 50000",
+          duration: "/one-time",
+          highlighted: false
+        },
+        yearly: {
+          price: "Rs 50000",
+          duration: "/one-time",
+          highlighted: false
+        }
+      },
+      features: [
+        "1 Month Support",
+        "Video Strategy Session",
+        "1 Video Delivered",
+        "Custom Branding",
+        "Buy Back Not Included"
+      ]
+    },
+    {
+      id: crypto.randomUUID(),
+      title: "One Time Premium",
+      setupTime: "Setup in 3 Working Days",
+      billing: {
+        monthly: {
+          price: "Rs 50000",
+          duration: "/one-time",
+          highlighted: false
+        },
+        yearly: {
+          price: "Rs 50000",
+          duration: "/one-time",
+          highlighted: false
+        }
+      },
+      features: [
+        "1 Month Support",
+        "Video Strategy Session",
+        "1 Video Delivered",
+        "Custom Branding",
+        "Buy Back Not Included"
+      ]
+    },
+    {
+      id: crypto.randomUUID(),
+      title: "One Time Premium",
+      setupTime: "Setup in 3 Working Days",
+      billing: {
+        monthly: {
+          price: "Rs 50000",
+          duration: "/one-time",
+          highlighted: false
+        },
+        yearly: {
+          price: "Rs 50000",
+          duration: "/one-time",
+          highlighted: false
+        }
+      },
+      features: [
+        "1 Month Support",
+        "Video Strategy Session",
+        "1 Video Delivered",
+        "Custom Branding",
+        "Buy Back Not Included"
+      ]
+    },
   ],
   "Recurring Plans": [
     {
@@ -171,7 +243,55 @@ const pricingData = {
         "Weekly Progress Reports",
         "1 Revision per Video"
       ]
-    }
+    },
+    {
+      id: crypto.randomUUID(),
+      title: "Starter Video Pack",
+      setupTime: "Setup in 2 Days",
+      billing: {
+        monthly: {
+          price: "Rs 15000",
+          duration: "/month",
+          highlighted: false
+        },
+        yearly: {
+          price: "Rs 162000",
+          duration: "/year",
+          highlighted: false
+        }
+      },
+      features: [
+        "2 Videos per Month",
+        "Basic Editing",
+        "Royalty-free Music",
+        "Weekly Progress Reports",
+        "1 Revision per Video"
+      ]
+    },
+    {
+      id: crypto.randomUUID(),
+      title: "Starter Video Pack",
+      setupTime: "Setup in 2 Days",
+      billing: {
+        monthly: {
+          price: "Rs 15000",
+          duration: "/month",
+          highlighted: false
+        },
+        yearly: {
+          price: "Rs 162000",
+          duration: "/year",
+          highlighted: false
+        }
+      },
+      features: [
+        "2 Videos per Month",
+        "Basic Editing",
+        "Royalty-free Music",
+        "Weekly Progress Reports",
+        "1 Revision per Video"
+      ]
+    },
   ],
 };
 
