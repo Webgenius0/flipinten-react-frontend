@@ -292,6 +292,30 @@ const pricingData = {
         "1 Revision per Video"
       ]
     },
+    {
+      id: crypto.randomUUID(),
+      title: "Starter Video Pack",
+      setupTime: "Setup in 2 Days",
+      billing: {
+        monthly: {
+          price: "Rs 15000",
+          duration: "/month",
+          highlighted: false
+        },
+        yearly: {
+          price: "Rs 162000",
+          duration: "/year",
+          highlighted: false
+        }
+      },
+      features: [
+        "2 Videos per Month",
+        "Basic Editing",
+        "Royalty-free Music",
+        "Weekly Progress Reports",
+        "1 Revision per Video"
+      ]
+    },
   ],
 };
 
