@@ -7,6 +7,7 @@ import YTCService from "@/allPages/YTCService";
 import YTCVideoPlans from "@/allPages/YTCVideoPlans";
 import BlogPage from "@/allPages/BlogPage";
 import BlogDetails from "@/allPages/BlogDetails";
+import ContactUsPage from "@/allPages/ContactUsPage";
 
 const Router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const Router = createBrowserRouter([
       {
         path: "blog-details/:id",
         element: <BlogDetails />,
+      },
+      {
+        path: "contact-us",
+        element: <ContactUsPage />,
       },
     ],
   },
