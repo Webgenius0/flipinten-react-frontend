@@ -335,16 +335,16 @@ export default function Footer() {
                   </h3>
                   <ul className="mt-6 flex flex-col gap-3">
                     <li>
-                      <Link className="text-white">About Us</Link>
+                      <Link to="/about-us" className="text-white">About Us</Link>
                     </li>
                     <li>
-                      <Link className="text-white">Blog</Link>
+                      <Link to="/blog" className="text-white">Blog</Link>
                     </li>
                     <li>
-                      <Link className="text-white">We are Hiring</Link>
+                      <Link to="/we-are-hiring" className="text-white">We are Hiring</Link>
                     </li>
                     <li>
-                      <Link className="text-white">Support</Link>
+                      <Link to="/contact-us" className="text-white">Support</Link>
                     </li>
                     <li>
                       <Link className="text-white">Refer & Earn</Link>

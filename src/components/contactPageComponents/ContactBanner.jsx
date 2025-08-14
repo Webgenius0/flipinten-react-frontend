@@ -1,6 +1,6 @@
-import CommonButton from "../common/CommonButton";
-import CommonHeading from "../common/CommonHeading";
-import Container from "../common/Container";
+import CommonButton from "@/components/common/CommonButton";
+import CommonHeading from "@/components/common/CommonHeading";
+import Container from "@/components/common/Container";
 import ContactBannerImg from "@/assets/contactBanner.png"
 
 export default function ContactBanner() {

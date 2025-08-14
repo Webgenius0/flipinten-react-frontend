@@ -8,6 +8,7 @@ import YTCVideoPlans from "@/allPages/YTCVideoPlans";
 import BlogPage from "@/allPages/BlogPage";
 import BlogDetails from "@/allPages/BlogDetails";
 import ContactUsPage from "@/allPages/ContactUsPage";
+import WeAreHiringPage from "@/allPages/WeAreHiringPage";
 
 const Router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const Router = createBrowserRouter([
       {
         path: "contact-us",
         element: <ContactUsPage />,
+      },
+      {
+        path: "we-are-hiring",
+        element: <WeAreHiringPage />,
       },
     ],
   },

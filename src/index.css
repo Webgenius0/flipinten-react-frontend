@@ -35,6 +35,10 @@ a.active{
   background: #fff;
   box-shadow: 0 0 24px 20px rgba(254, 51, 51, 0.103);
 }
+.customBackGroundsWAH{
+  border-radius: 24px;
+  background: linear-gradient(264deg, #930400 -2.42%, #E52621 100%);
+}
 
 .okeys:hover svg {
   stroke: white;
