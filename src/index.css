@@ -7,11 +7,12 @@
 body {
   font-family: "Exo", sans-serif;
 }
-a.active{
+a.active {
   text-decoration-line: underline;
   font-weight: 600;
 }
 @theme {
+  --color-primary-red: #e52621;
   --shadow-custom: 0 50px 30px -28px rgba(92, 92, 92, 0.36);
   --shadow-customTwo: 0 0 16px 0 rgba(134, 134, 134, 0.15);
   --color-customTwo: rgba(176, 190, 197, 1);
@@ -35,9 +36,9 @@ a.active{
   background: #fff;
   box-shadow: 0 0 24px 20px rgba(254, 51, 51, 0.103);
 }
-.customBackGroundsWAH{
+.customBackGroundsWAH {
   border-radius: 24px;
-  background: linear-gradient(264deg, #930400 -2.42%, #E52621 100%);
+  background: linear-gradient(264deg, #930400 -2.42%, #e52621 100%);
 }
 
 .okeys:hover svg {
@@ -82,8 +83,8 @@ a.active{
   border-radius: 4.329px 86.585px;
   background: url(<path-to-image>) lightgray 50% / cover no-repeat, #d9d9d9;
 }
-.customForClient{
-  background: linear-gradient(93deg, #E60000 0.34%, #240000 97.15%);
+.customForClient {
+  background: linear-gradient(93deg, #e60000 0.34%, #240000 97.15%);
 }
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
