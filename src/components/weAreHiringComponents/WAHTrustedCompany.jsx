@@ -37,7 +37,7 @@ export default function WAHTrustedCompany() {
             <div className="flex flex-col justify-center items-center">
               <CommonHeading text="Trusted By" />
 
-              <div className="grid grid-cols-6 gap-20 items-center">
+              <div className="grid grid-cols-6 gap-20 items-center mt-10">
                 {TrustData.map((item)=>(
                   <div key={item.id} className="w-full h-[36px]">
                     <img className="w-full h-full" src={item.img} alt="not found" />
