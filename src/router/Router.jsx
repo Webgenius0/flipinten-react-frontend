@@ -9,6 +9,7 @@ import BlogPage from "@/allPages/BlogPage";
 import BlogDetails from "@/allPages/BlogDetails";
 import ContactUsPage from "@/allPages/ContactUsPage";
 import WeAreHiringPage from "@/allPages/WeAreHiringPage";
+import JobDetails from "@/allPages/JobDetails";
 import BuyBackGuaranteePage from "@/allPages/BuyBackGuaranteePage";
 
 const Router = createBrowserRouter([
@@ -52,6 +53,7 @@ const Router = createBrowserRouter([
         path: "we-are-hiring",
         element: <WeAreHiringPage />,
       },
+      { path: "job-details", element: <JobDetails /> },
       {
         path: "buy-back-guarantee",
         element: <BuyBackGuaranteePage/>,
