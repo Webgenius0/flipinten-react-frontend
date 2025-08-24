@@ -14,6 +14,7 @@ import BuyBackGuaranteePage from "@/allPages/BuyBackGuaranteePage";
 import Refer from "@/allPages/Refer";
 import TermsAndConditions from "@/allPages/TermsAndConditions";
 import PrivacyPolicy from "@/allPages/PrivacyPolicy";
+import RefundPolicy from "@/allPages/RefundPolicy";
 
 const Router = createBrowserRouter([
   {
@@ -72,6 +73,10 @@ const Router = createBrowserRouter([
       {
         path: "privacy-policy",
         element: <PrivacyPolicy />,
+      },
+      {
+        path: "refund-policy",
+        element: <RefundPolicy />,
       },
     ],
   },
