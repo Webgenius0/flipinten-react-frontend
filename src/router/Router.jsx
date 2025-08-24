@@ -12,6 +12,7 @@ import WeAreHiringPage from "@/allPages/WeAreHiringPage";
 import JobDetails from "@/allPages/JobDetails";
 import BuyBackGuaranteePage from "@/allPages/BuyBackGuaranteePage";
 import Refer from "@/allPages/Refer";
+import TermsAndConditions from "@/allPages/TermsAndConditions";
 
 const Router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const Router = createBrowserRouter([
       {
         path: "refer",
         element: <Refer />,
+      },
+      {
+        path: "terms-and-conditions",
+        element: <TermsAndConditions />,
       },
     ],
   },
