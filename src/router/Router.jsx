@@ -11,6 +11,7 @@ import ContactUsPage from "@/allPages/ContactUsPage";
 import WeAreHiringPage from "@/allPages/WeAreHiringPage";
 import JobDetails from "@/allPages/JobDetails";
 import BuyBackGuaranteePage from "@/allPages/BuyBackGuaranteePage";
+import Refer from "@/allPages/Refer";
 
 const Router = createBrowserRouter([
   {
@@ -56,7 +57,11 @@ const Router = createBrowserRouter([
       { path: "job-details", element: <JobDetails /> },
       {
         path: "buy-back-guarantee",
-        element: <BuyBackGuaranteePage/>,
+        element: <BuyBackGuaranteePage />,
+      },
+      {
+        path: "refer",
+        element: <Refer />,
       },
     ],
   },

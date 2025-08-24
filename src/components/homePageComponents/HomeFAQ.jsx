@@ -12,7 +12,8 @@ import { PiMinusCircleFill } from "react-icons/pi";
 const items = [
   {
     title: "1. How does TruckLink match shippers with truckers?",
-    content: "Our AI-powered algorithm considers factors like location, cargo size, timing, and trucker availability to instantly match shippers with the most suitable truckers, ensuring efficiency and reduced delivery times.",
+    content:
+      "Our AI-powered algorithm considers factors like location, cargo size, timing, and trucker availability to instantly match shippers with the most suitable truckers, ensuring efficiency and reduced delivery times.",
   },
   {
     title: "2. Is it free to sign up and use the platform?",
@@ -36,7 +37,8 @@ const items = [
   },
   {
     title: "6. How does TruckLink match shippers with truckers?",
-    content: "Our AI-powered algorithm considers factors like location, cargo size, timing, and trucker availability to instantly match shippers with the most suitable truckers, ensuring efficiency and reduced delivery times.",
+    content:
+      "Our AI-powered algorithm considers factors like location, cargo size, timing, and trucker availability to instantly match shippers with the most suitable truckers, ensuring efficiency and reduced delivery times.",
   },
   {
     title: "7. Is it free to sign up and use the platform?",
@@ -68,7 +70,6 @@ const items = [
     content:
       "Our 24/7 driver support team is always available via in-app chat or phone to help you resolve problems immediately.",
   },
-
 ];
 
 export default function HomeFAQ() {
@@ -85,7 +86,6 @@ export default function HomeFAQ() {
         <div className="mt-[48px]">
           <div className="mt-[60px]">
             <Accordion
-              defaultValue="item-0"
               type="single"
               collapsible
               className="space-y-6 grid grid-cols-2 gap-x-10 items-center"
