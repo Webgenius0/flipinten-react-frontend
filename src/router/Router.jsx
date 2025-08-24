@@ -9,8 +9,19 @@ import BlogPage from "@/allPages/BlogPage";
 import BlogDetails from "@/allPages/BlogDetails";
 import ContactUsPage from "@/allPages/ContactUsPage";
 import WeAreHiringPage from "@/allPages/WeAreHiringPage";
+import JobDetails from "@/allPages/JobDetails";
+import BuyBackGuaranteePage from "@/allPages/BuyBackGuaranteePage";
+import Refer from "@/allPages/Refer";
+import TermsAndConditions from "@/allPages/TermsAndConditions";
+import PrivacyPolicy from "@/allPages/PrivacyPolicy";
+import RefundPolicy from "@/allPages/RefundPolicy";
+import AllPages from "@/allPages/AllPages";
 
 const Router = createBrowserRouter([
+  {
+    path: "/all-pages",
+    element: <AllPages />,
+  },
   {
     path: "/",
     element: <Layout />,
@@ -50,6 +61,27 @@ const Router = createBrowserRouter([
       {
         path: "we-are-hiring",
         element: <WeAreHiringPage />,
+      },
+      { path: "job-details", element: <JobDetails /> },
+      {
+        path: "buy-back-guarantee",
+        element: <BuyBackGuaranteePage />,
+      },
+      {
+        path: "refer",
+        element: <Refer />,
+      },
+      {
+        path: "terms-and-conditions",
+        element: <TermsAndConditions />,
+      },
+      {
+        path: "privacy-policy",
+        element: <PrivacyPolicy />,
+      },
+      {
+        path: "refund-policy",
+        element: <RefundPolicy />,
       },
     ],
   },
