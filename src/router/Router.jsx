@@ -15,8 +15,13 @@ import Refer from "@/allPages/Refer";
 import TermsAndConditions from "@/allPages/TermsAndConditions";
 import PrivacyPolicy from "@/allPages/PrivacyPolicy";
 import RefundPolicy from "@/allPages/RefundPolicy";
+import AllPages from "@/allPages/AllPages";
 
 const Router = createBrowserRouter([
+  {
+    path: "/all-pages",
+    element: <AllPages />,
+  },
   {
     path: "/",
     element: <Layout />,
