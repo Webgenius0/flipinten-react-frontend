@@ -1,6 +1,6 @@
 import CommonHeading from "@/components/common/CommonHeading";
 import Container from "@/components/common/Container";
-import TestImage from "@/assets/testImage.png"
+import TestImage from "@/assets/testImage.png";
 // import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -12,7 +12,7 @@ import {
 
 export default function HomeTestimonial() {
   return (
-    <section className="py-[140px]">
+    <section className="pt-[140px] pb-[70px]">
       <Container>
         <div className="max-w-[565px] mx-auto text-center">
           <CommonHeading text="What our Customers Say About Us" />
@@ -150,22 +150,38 @@ export default function HomeTestimonial() {
                           </div>
                         </div>
                         <div className="">
-                          <h3 className="text-[#6D6D6D] text-[14px] leading-[21px]">Oct 28, 2024</h3>
+                          <h3 className="text-[#6D6D6D] text-[14px] leading-[21px]">
+                            Oct 28, 2024
+                          </h3>
                         </div>
                       </div>
 
                       <div className="flex flex-col gap-2">
-                        <h3 className="text-[#0B0B0B] text-[20px] font-medium leading-[30px]">Excellent Services</h3>
-                        <p className="text-[#404A60] mt-2 line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h3 className="text-[#0B0B0B] text-[20px] font-medium leading-[30px]">
+                          Excellent Services
+                        </h3>
+                        <p className="text-[#404A60] mt-2 line-clamp-3">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua.
+                        </p>
                       </div>
 
                       <div className="flex gap-4">
                         <div className="w-[60px] h-[60px] rounded-full bg-red-300">
-                          <img className="w-full h-full rounded-[50%] object-cover" src={TestImage} alt="not found" />
+                          <img
+                            className="w-full h-full rounded-[50%] object-cover"
+                            src={TestImage}
+                            alt="not found"
+                          />
                         </div>
                         <div className="flex flex-col gap-1">
-                          <h3 className="text-[#0B0B0B] font-medium">Gergia Rodrigues</h3>
-                          <p className="text-[#6D6D6D] text-[14px] leading-[21px]">Content creator</p>
+                          <h3 className="text-[#0B0B0B] font-medium">
+                            Gergia Rodrigues
+                          </h3>
+                          <p className="text-[#6D6D6D] text-[14px] leading-[21px]">
+                            Content creator
+                          </p>
                         </div>
                       </div>
                     </div>
