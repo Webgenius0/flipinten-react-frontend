@@ -16,12 +16,16 @@ import TermsAndConditions from "@/allPages/TermsAndConditions";
 import PrivacyPolicy from "@/allPages/PrivacyPolicy";
 import RefundPolicy from "@/allPages/RefundPolicy";
 import AllPages from "@/allPages/AllPages";
+import DashboardLayout from "@/layout/DashboardLayout";
+import DashboardOverview from "@/allPages/Dashboard/DashboardOverview";
 
 const Router = createBrowserRouter([
   {
     path: "/all-pages",
     element: <AllPages />,
   },
+
+  // Landing Pages
   {
     path: "/",
     element: <Layout />,
@@ -82,6 +86,62 @@ const Router = createBrowserRouter([
       {
         path: "refund-policy",
         element: <RefundPolicy />,
+      },
+    ],
+  },
+
+  // Dashboard Pages
+  {
+    path: "/dashboard",
+    element: <DashboardLayout />,
+    children: [
+      {
+        index: true,
+        element: <DashboardOverview />,
+      },
+      {
+        path: "/dashboard/youtube-services",
+        element: <h1>Youtube Services</h1>,
+      },
+      {
+        path: "/dashboard/lifetime-starter",
+        element: <h1>Lifetime Starter</h1>,
+      },
+      {
+        path: "/dashboard/lifetime-wealth-plan",
+        element: <h1>Lifetime Wealth Plan</h1>,
+      },
+      {
+        path: "/dashboard/buy-youtube-videos",
+        element: <h1>Buy Youtube Videos</h1>,
+      },
+      {
+        path: "/dashboard/youtube-seo-service",
+        element: <h1>Youtube SEO Service</h1>,
+      },
+      {
+        path: "/dashboard/youtube-videos-voiceover",
+        element: <h1>Youtube Videos Voiceover</h1>,
+      },
+      {
+        path: "/dashboard/announcements",
+        element: <h1>Announcements</h1>,
+      },
+      {
+        path: "/dashboard/support",
+        element: <h1>Support</h1>,
+      },
+      {
+        path: "/dashboard/billing-transactions",
+        element: <h1>Billing Transactions</h1>,
+      },
+      {
+        path: "/dashboard/profile-setting",
+        element: <h1>Profile Setting</h1>,
+      },
+      {
+        path: "/dashboard/live-chat",
+        element: <h1>Live Chat</h1>,
       },
     ],
   },

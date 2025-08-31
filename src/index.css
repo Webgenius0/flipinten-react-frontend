@@ -87,6 +87,21 @@ a.active {
 .customForClient {
   background: linear-gradient(93deg, #e60000 0.34%, #240000 97.15%);
 }
+.custom-scrollbar {
+  scrollbar-width: 0;
+  scrollbar-color: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #fff;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #dbdbdb;
+  border-radius: 20px;
+}
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
