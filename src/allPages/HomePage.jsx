@@ -7,6 +7,7 @@ import HomeWhyChooseUs from "@/components/homePageComponents/HomeWhyChooseUs";
 import HomeSeoServices from "@/components/homePageComponents/HomeSeoServices";
 import HomeVoiceOverService from "@/components/homePageComponents/HomeVoiceOverService";
 import HomeBlog from "@/components/homePageComponents/HomeBlog";
+import RoadmapToMonetization from "@/components/homePageComponents/RoadmapToMonetization";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <HomeHero />
       <HomeCounter />
       <HomeWhyChooseUs />
+      <RoadmapToMonetization />
       <HomePricing />
       <HomeTestimonial />
       {/* <HomeFAQ /> */}

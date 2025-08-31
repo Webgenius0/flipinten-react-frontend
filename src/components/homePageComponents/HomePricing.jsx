@@ -190,11 +190,13 @@ export default function HomePricing() {
     <section className="py-[140px] bg-[#F6F6F6]">
       <Container>
         <div className="text-center">
-          <CommonHeading text="Start Your YouTube Empire with Confidence" />
+          <CommonHeading text="Invest Bigger, Earn Smarter" />
 
           <p className="mt-6 text-[#6A7283] text-[18px] leading-[27px] max-w-60/100 mx-auto">
-            Four one‑time plans to take you from zero to monetized—fast. Clear
-            deliverables, weekly updates, and buyback protection.
+            Our Wealth category plans are built for clients who want to scale
+            aggressively. With larger budgets, premium niches, and faster growth
+            potential, these plans target higher monthly earnings in shorter
+            timelines.
           </p>
         </div>
 
