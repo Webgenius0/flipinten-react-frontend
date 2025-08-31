@@ -35,32 +35,88 @@ const AllPages = () => {
       link: "/contact-us",
     },
     {
-      name: "We Are Hiring Page - (NEW)",
+      name: "We Are Hiring Page",
       link: "/we-are-hiring",
     },
     {
-      name: "Job Details Page - (NEW)",
+      name: "Job Details Page",
       link: "/job-details",
     },
     {
-      name: "Buy Back Guarantee Page - (NEW)",
+      name: "Buy Back Guarantee Page",
       link: "/buy-back-guarantee",
     },
     {
-      name: "Refer Page - (NEW)",
+      name: "Refer Page",
       link: "/refer",
     },
     {
-      name: "Terms And Conditions Page - (NEW)",
+      name: "Terms And Conditions Page",
       link: "/terms-and-conditions",
     },
     {
-      name: "Privacy Policy Page - (NEW)",
+      name: "Privacy Policy Page",
       link: "/privacy-policy",
     },
     {
-      name: "Refund Policy Page - (NEW)",
-      link: "refund-policy",
+      name: "Refund Policy Page",
+      link: "/refund-policy",
+    },
+    {
+      name: "",
+      link: "#",
+    },
+    {
+      name: "",
+      link: "#",
+    },
+    {
+      name: "Dashboard Overview Page",
+      link: "/dashboard",
+    },
+    {
+      name: "Dashboard Youtube Services Page",
+      link: "/dashboard/youtube-services",
+    },
+    {
+      name: "Dashboard Lifetime Starter Page",
+      link: "/dashboard/lifetime-starter",
+    },
+    {
+      name: "Dashboard Lifetime Wealth Page",
+      link: "/dashboard/lifetime-wealth-plan",
+    },
+    {
+      name: "Dashboard Buy Youtube Videos Page",
+      link: "/dashboard/buy-youtube-videos",
+    },
+    {
+      name: "Dashboard Youtube SEO Page",
+      link: "/dashboard/youtube-seo-service",
+    },
+    {
+      name: "Dashboard Youtube Voiceover Page",
+      link: "/dashboard/youtube-videos-voiceover",
+    },
+    {
+      name: "Dashboard Announcements Page",
+      link: "/dashboard/announcements",
+    },
+    {
+      name: "Dashboard Support Page",
+      link: "/dashboard/support",
+    },
+    {
+      name: "Dashboard Billing and Transactions Page",
+      link: "/dashboard/billing-transactions",
+    },
+    {
+      name: "Dashboard Profile Setting Page",
+      link: "/dashboard/profile-setting",
+    },
+    {
+      name: "Dashboard Live Chat Page",
+      link: "/dashboard/live-chat",
     },
   ];
 
