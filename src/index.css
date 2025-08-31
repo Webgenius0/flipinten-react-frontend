@@ -13,6 +13,7 @@ a.active {
 }
 @theme {
   --color-primary-red: #e52621;
+  --color-primary-green: #2fa75f;
   --shadow-custom: 0 50px 30px -28px rgba(92, 92, 92, 0.36);
   --shadow-customTwo: 0 0 16px 0 rgba(134, 134, 134, 0.15);
   --color-customTwo: rgba(176, 190, 197, 1);
@@ -32,9 +33,9 @@ a.active {
   cursor: pointer;
 }
 .customHoverEffect:hover {
-  border: 2px solid var(--Brand-Color-Primary-Color, #e52621);
+  border: 2px solid var(--Brand-Color-Primary-Color, #2fa75f);
   background: #fff;
-  box-shadow: 0 0 24px 20px rgba(254, 51, 51, 0.103);
+  box-shadow: 0 0 24px 20px rgba(47, 167, 95, 0.1);
 }
 .customBackGroundsWAH {
   border-radius: 24px;
@@ -85,6 +86,21 @@ a.active {
 }
 .customForClient {
   background: linear-gradient(93deg, #e60000 0.34%, #240000 97.15%);
+}
+.custom-scrollbar {
+  scrollbar-width: 0;
+  scrollbar-color: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #fff;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #dbdbdb;
+  border-radius: 20px;
 }
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
