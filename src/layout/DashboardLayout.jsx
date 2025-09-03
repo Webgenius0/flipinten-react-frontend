@@ -16,7 +16,7 @@ export default function DashboardLayout() {
           <DashboardTopbar />
         </div>
 
-        <div className="w-full h-[calc(100%-105px)] bg-[#F6F6F6] p-6">
+        <div className="w-full h-[calc(100%-105px)] bg-[#F6F6F6] p-6 overflow-auto">
           <Outlet />
         </div>
       </div>
