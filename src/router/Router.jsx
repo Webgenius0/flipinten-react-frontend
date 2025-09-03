@@ -18,6 +18,7 @@ import RefundPolicy from "@/allPages/RefundPolicy";
 import AllPages from "@/allPages/AllPages";
 import DashboardLayout from "@/layout/DashboardLayout";
 import DashboardOverview from "@/allPages/Dashboard/DashboardOverview";
+import DashboardYoutubeServices from "@/allPages/Dashboard/DashboardYoutubeServices";
 
 const Router = createBrowserRouter([
   {
@@ -101,7 +102,7 @@ const Router = createBrowserRouter([
       },
       {
         path: "/dashboard/youtube-services",
-        element: <h1>Youtube Services</h1>,
+        element: <DashboardYoutubeServices/>,
       },
       {
         path: "/dashboard/lifetime-starter",
