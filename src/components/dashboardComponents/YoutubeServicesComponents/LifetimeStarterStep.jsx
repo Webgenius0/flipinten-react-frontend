@@ -1,6 +1,5 @@
 import { ArrowRight } from "lucide-react";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import LifetimeStarterContent from "./LifetimeStarterContents/LifetimeStarterContent";
 
 export default function LifetimeStarterStep() {
