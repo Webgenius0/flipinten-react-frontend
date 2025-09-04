@@ -1,6 +1,6 @@
 import React from "react";
 
-// section top sample data
+// sample data
 const channelDetails = {
   channelName: "Horror Mania",
   channelId: "YTC001",
@@ -20,7 +20,7 @@ const channelDetails = {
   youtubeEmil: "hello@gmail.com",
 };
 
-export default function LifeTimeChannelDetails() {
+export default function LifetimeWealthChannelDetails() {
   return (
     <div>
       {/* channel details top content */}
@@ -105,7 +105,7 @@ export default function LifeTimeChannelDetails() {
 
       <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* ch=annel value and monitiztion status */}
-        <div  className="h-full flex flex-col justify-between">
+        <div className="h-full flex flex-col justify-between">
           {/* channel value content */}
           <div className="w-full py-6 px-12 rounded-2xl bg-white ">
             <p className="text-2xl font-semibold leading-9 text-[#071431]">
@@ -178,8 +178,6 @@ export default function LifeTimeChannelDetails() {
             </div>
           </div>
         </div>
-
-      
 
         {/* channel value content */}
         <div className="w-full h-full py-6 px-12 rounded-2xl bg-white">

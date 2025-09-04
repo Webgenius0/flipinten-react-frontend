@@ -1,6 +1,6 @@
 import toast from "react-hot-toast";
 
-export default function PricingCard({ plan }) {
+export default function PricingCard({ plan, isDash, formOpen, setFormOpen }) {
   return (
     <div className="w-full flex flex-col justify-between gap-8 rounded-3xl bg-white customHoverEffect pb-6">
       {/* Details */}
@@ -28,12 +28,21 @@ export default function PricingCard({ plan }) {
       {/* Get Started Button */}
       {!plan?.notAnItem && (
         <div className="w-full max-w-80/100 mx-auto">
-          <button
-            onClick={() => toast("Feature coming soon")}
-            className="py-4 w-full flex justify-center rounded-[30px] border border-transparent text-white text-lg font-semibold leading-[30px] ease-in-out bg-[#E52621] hover:text-primary-green hover:bg-white hover:border-primary-green cursor-pointer duration-300"
-          >
-            Get Started
-          </button>
+          {isDash ? (
+            <button
+              onClick={() => setFormOpen(!formOpen)}
+              className="py-4 w-full flex justify-center rounded-[30px] border border-transparent text-white text-lg font-semibold leading-[30px] ease-in-out bg-[#E52621] hover:text-primary-green hover:bg-white hover:border-primary-green cursor-pointer duration-300"
+            >
+              Get Started
+            </button>
+          ) : (
+            <button
+              onClick={() => toast("Feature coming soon")}
+              className="py-4 w-full flex justify-center rounded-[30px] border border-transparent text-white text-lg font-semibold leading-[30px] ease-in-out bg-[#E52621] hover:text-primary-green hover:bg-white hover:border-primary-green cursor-pointer duration-300"
+            >
+              Get Started
+            </button>
+          )}
         </div>
       )}
     </div>

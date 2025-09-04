@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import LifeTimeChannelDetails from "./LifeTimeChannelDetails";
-import LifetimeMonitizationChannelDetails from "./LifetimeMonitizationChannelDetails";
+import WealthMonitizationChannelDetails from "./WealthMonitizationChannelDetails";
+import LifetimeWealthChannelDetails from "./LifetimeWealthChannelDetails";
 
-// sample data
 const channels = [
   {
     planName: "Starter Plus",
@@ -22,13 +21,13 @@ const channels = [
   },
 ];
 
-export default function LifetimeStarterContent() {
+export default function LifetimeWealthContent() {
   const [channelDetails, setChannelDetails] = useState(false);
   return (
     <div className="w-full">
       {channelDetails ? (
-        // <LifeTimeChannelDetails /> 
-        <LifetimeMonitizationChannelDetails/>
+        // <LifetimeWealthChannelDetails/>
+        <WealthMonitizationChannelDetails/>
       ) : (
         <div className="w-full bg-white p-8 rounded-xl space-y-10">
           {channels?.map((info, idx) => (
@@ -98,8 +97,6 @@ export default function LifetimeStarterContent() {
           ))}
         </div>
       )}
-
-    
     </div>
   );
 }
