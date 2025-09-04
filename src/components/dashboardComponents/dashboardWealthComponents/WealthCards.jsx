@@ -1,7 +1,7 @@
 import PricingCard from "@/components/common/PricingCard";
 import WarningSvg from "@/components/SVG/DashboardIcons/WarningSvg";
 import React, { useState } from "react";
-import StarterCardsForm from "./StarterCardsForm";
+import WealthCardsForm from "./WealthCardsForm";
 
 // Pricing Dummy Data
 const pricingData = [
@@ -182,16 +182,16 @@ const pricingData = [
   },
 ];
 
-export default function DashStarterCards() {
+export default function WealthCards() {
   // To make the pricing tabg active
-  const [selectedPlan] = useState(pricingData[0]?.name);
+  const [selectedPlan] = useState(pricingData[1]?.name);
 
   const [formOpen, setFormOpen] = useState(false);
 
   return (
     <div>
       {formOpen ? (
-        <StarterCardsForm />
+        <WealthCardsForm />
       ) : (
         <div>
           <div className="p-4 rounded-xl bg-[#FEFCE8] flex items-center gap-4">
@@ -227,14 +227,13 @@ export default function DashStarterCards() {
                 <WarningSvg fill={"#CA8A04"} />
               </p>
               <p className="text-[#CA8A04]">
-                * All prices exclude taxes.{" "}
-                <span className="font-bold">18% GST</span> applicable at
-                checkout. * Earnings forecasts shown are{" "}
-                <span className="font-bold">after profit split</span> with
-                YTStart.
+                All prices exclude taxes. <span className="font-bold">18% GST</span> applicable at checkout. Setup
+                time is 5-7 working days for all Wealth plans. Earnings
+                forecasts shown are after profit split with YTStart. Content
+                Type: <span className="font-bold">AI Model</span>. Buyback Guarantee: <span className="font-bold">15 Months for all Wealth
+                Plans @ Double Price.</span>
               </p>
             </div>
-           
           </div>
         </div>
       )}
