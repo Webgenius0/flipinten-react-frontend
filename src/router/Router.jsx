@@ -19,6 +19,7 @@ import AllPages from "@/allPages/AllPages";
 import DashboardLayout from "@/layout/DashboardLayout";
 import DashboardOverview from "@/allPages/Dashboard/DashboardOverview";
 import DashboardYoutubeServices from "@/allPages/Dashboard/DashboardYoutubeServices";
+import DashboardStarterPlan from "@/allPages/Dashboard/DashboardStarterPlan";
 
 const Router = createBrowserRouter([
   {
@@ -106,7 +107,7 @@ const Router = createBrowserRouter([
       },
       {
         path: "/dashboard/lifetime-starter",
-        element: <h1>Lifetime Starter</h1>,
+        element: <DashboardStarterPlan/>
       },
       {
         path: "/dashboard/lifetime-wealth-plan",
