@@ -18,6 +18,7 @@ a.active {
   --shadow-customTwo: 0 0 16px 0 rgba(134, 134, 134, 0.15);
   --color-customTwo: rgba(176, 190, 197, 1);
   --color-borderColor: rgba(255, 255, 255, 0.2);
+  --color-text: #1C1D20;
 }
 
 /* Custom Classes */
