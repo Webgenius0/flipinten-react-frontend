@@ -21,6 +21,7 @@ import DashboardOverview from "@/allPages/Dashboard/DashboardOverview";
 import DashboardYoutubeServices from "@/allPages/Dashboard/DashboardYoutubeServices";
 import DashboardStarterPlan from "@/allPages/Dashboard/DashboardStarterPlan";
 import DashboardWealthPlan from "@/allPages/Dashboard/DashboardWealthPlan";
+import DashboardBuyYoutube from './../allPages/Dashboard/DashboardBuyYoutube';
 
 const Router = createBrowserRouter([
   {
@@ -116,7 +117,7 @@ const Router = createBrowserRouter([
       },
       {
         path: "/dashboard/buy-youtube-videos",
-        element: <h1>Buy Youtube Videos</h1>,
+        element: <DashboardBuyYoutube/>,
       },
       {
         path: "/dashboard/youtube-seo-service",
